@@ -94,7 +94,7 @@ class P2P:
         idle_timeout: float = 30,
         nat_port_map: bool = True,
         relay_hop_limit: int = 0,
-        startup_timeout: float = 15,
+        startup_timeout: float = 120,
         tls: bool = True,
         use_auto_relay: bool = False,
         use_ipfs: bool = False,
